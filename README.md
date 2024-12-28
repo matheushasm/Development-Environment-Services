@@ -2,6 +2,10 @@
 
 This `docker-compose.yml` file sets up a local development environment with essential tools and services for modern application development. Below is an overview of the services included and their purpose.
 
+## Create shared network (usefull to connect with other containers)
+      docker network create shared-network
+
+
 ## Services
 
 ### 1. MySQL
